@@ -15,7 +15,9 @@ body{
     height: 25px;
     margin:10px
 }
-
+div input{
+    width: 8vw;
+}
 #form-person{
     text-align: center;
     width: 10vw;
