@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: #7CB9E8;
+    flex-direction: column;
+}
+
+.div-person{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    border: 1px solid;
+    font-size: 20px;
+    height: 25px;
+    margin:10px
+}
+
+#form-person{
+    text-align: center;
+    width: 10vw;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#list-person{
+    margin: 20px 0;
+    padding: 0;
+    width: 40vw;
+}
+
+#div-list-person{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 50px ;
+    background-color: #F0F8FF;
+}
+
+.remove-person{
+    cursor: pointer;
+}
